@@ -1,0 +1,50 @@
+.navbar {
+    /* width: 100%; */
+    height: auto;
+    background-color: #F8F0E5;
+    padding: 2px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .icons {
+    display: flex;
+    width: 110px;
+    justify-content: space-between;
+    align-items: center;
+    color: #F86F03;
+}
+
+.btn {
+    display: flex;
+}
+
+.navbar .icons h2 {
+    margin: 0 0 0 10px;
+    letter-spacing: 2px;
+    font-family: 'Shrikhand', cursive;
+    color: #F86F03;
+    font-weight: 400;
+}
+
+
+.bi-box-seam-fill {
+    font-size: 40px;
+}
+
+button {
+    height: 35px;
+    width: auto;
+    cursor: pointer;
+    font-size: medium;
+    border-radius: 5px;
+    font-weight: 700;
+    border: 1px solid #C5DFF8;
+    color: white;
+    background-color: #F86F03;
+
+    &:hover {
+        background-color: #F86F03;
+    }
+}
