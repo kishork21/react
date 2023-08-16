@@ -7,7 +7,7 @@
     justify-content: center;
     background-color: aliceblue;
     border: 1px solid ghostwhite;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, #fff 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, #fff 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 }
 
 .popupData {
@@ -20,6 +20,7 @@ input {
     width: 400px;
     border-radius: 5px;
     border: 1px solid gray;
+    font-family: sans-serif;
     padding: 10px;
 }
 
@@ -46,4 +47,5 @@ textarea {
     font-size: 20px;
     padding: 10px;
     border-radius: 5px;
+    font-family: sans-serif;
 }

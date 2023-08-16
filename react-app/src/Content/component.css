@@ -8,15 +8,13 @@
 .allBox .box {
     height: 250px;
     width: 25%;
-    margin: 5px;
-    background: linear-gradient(#E2F6CA, #F8FDCF, #FFEADD);
+    margin: 10px;
     cursor: pointer;
-    border-radius: 20px 0;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
-    border: 1px solid gray;
     padding: 10px;
 
 }
@@ -29,4 +27,15 @@
 .box p {
     text-transform: capitalize;
     word-break: break-all;
+    margin: 0;
+}
+
+.box .bottom p:nth-child(1) {
+    font-size: 40px;
+    color: #F86F03;
+}
+
+.box .bottom p:nth-child(2) {
+    height: 85px;
+    margin-top: 15px;
 }

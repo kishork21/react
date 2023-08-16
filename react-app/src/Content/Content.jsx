@@ -11,11 +11,15 @@ export default function ContentComponent(props) {
                         return (
                             <div className='box' key={index}>
                                 <div className='top'>
-                                    <h1>{d.emoji}</h1>
+                                    <h1 className='emoji'>{d.emoji}</h1>
                                 </div>
-                                <div className='bottom'></div>
-                                <p>{d.emojiName}</p>
-                                <p>{d.description}</p>
+                                <div className='bottom' align="center">
+                                    <p className='emojiName'>{d.emojiName}</p>
+                                    <p className='description'>{d.description}</p>
+                                </div>
+                                <div className='editBtn'>
+                                    {/* <button onClick={}>Edit</button> */}
+                                </div>
                             </div>
                         )
                     })}
